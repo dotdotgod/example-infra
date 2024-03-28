@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "kbl"
+    organization = "dotdot_learn"
     workspaces { name = "example-infra" }
   }
   required_providers {
