@@ -13,15 +13,3 @@ variable "aws_region" {
   default     = "ap-northeast-2"
   description = "AWS region"
 }
-
-variable "google_client_id" {
-  type        = string
-  description = "Google client id"
-  default = "null"
-}
-
-variable "google_client_secret" {
-  type        = string
-  description = "Google client secret"
-  default = "null"
-}
